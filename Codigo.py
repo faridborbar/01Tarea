@@ -145,7 +145,7 @@ FlujoCom = integrate.quad(Integral, 0, np.pi/2)
 FlujoCom = FlujoCom * Constantes
 TCompSimpson=time.time() - TCompSimpson     #cerramos el contador
 
-print 'flujos solar'
+print 'flujos solares, calculados con el metodo de Simpson y Quad respectivamente'
 print FlujoSolar
 print FlujoCom
 
